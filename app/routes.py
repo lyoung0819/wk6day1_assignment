@@ -1,11 +1,11 @@
 from app import app 
 from all_tasks import tasks_list
 
-@app.route('/')
-def print_name():
-    first_name = 'Lexie'
-    last_name = 'Young'
-    return first_name + last_name
+# @app.route('/')
+# def print_name():
+#     first_name = 'Lexie'
+#     last_name = 'Young'
+#     return first_name + last_name
 
 @app.route('/tasks')
 def get_all_tasks():
